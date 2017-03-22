@@ -53,7 +53,11 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
-                Toast.makeText(MainActivity.this, "TODO: MArk as read", Toast.LENGTH_SHORT).show();
+                if(direction == ItemTouchHelper.RIGHT){
+                    Toast.makeText(MainActivity.this, "TODO: MArk as read", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(MainActivity.this, "TODO: Delete To Do", Toast.LENGTH_SHORT).show();
+                }
             }
         }).attachToRecyclerView(mRecyclerView);
 

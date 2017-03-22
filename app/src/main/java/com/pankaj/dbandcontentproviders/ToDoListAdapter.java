@@ -10,10 +10,6 @@ import android.widget.TextView;
 
 import com.pankaj.dbandcontentproviders.data.ToDoContract.ToDoEntry;
 
-/**
- * Created by pankaj on 22/03/17.
- */
-
 public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ViewHolder> {
 
     private Cursor mCursor;

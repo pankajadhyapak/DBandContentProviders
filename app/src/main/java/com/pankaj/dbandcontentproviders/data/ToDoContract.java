@@ -2,10 +2,6 @@ package com.pankaj.dbandcontentproviders.data;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by pankaj on 22/03/17.
- */
-
 public final class ToDoContract {
     private ToDoContract() {}
 
